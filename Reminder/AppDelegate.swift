@@ -9,12 +9,55 @@ import UIKit
 import CoreData
 import UserNotifications
 
+enum NotificationIdentifiers: String {
+    case mainCategory = "Lembrete"
+    case doneAction = "Realizada"
+    case showAction = "Mostrar"
+}
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    let center = UNUserNotificationCenter.current()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        // App carregado, vamos configurar a central de notificações
+        center.delegate = self
+        
+        // Verifica se o usuário aceitou receber notificações
+        center.getNotificationSettings { (settings: UNNotificationSettings) in
+            if settings.authorizationStatus == .notDetermined {
+                let options: UNAuthorizationOptions = [.alert, .sound, .badge]
+                // Vamos requisitar ao usuário a autorização
+                self.center.requestAuthorization(options: options, completionHandler: { (success: Bool, error: Error?) in
+                    if error == nil {
+                        if success {
+                            print("Usuário autorizou as notificações")
+                        } else {
+                            print("Usuário negou as notificações")
+                            
+                            // TODO Perguntar de tempos em tempos se deseja aceitar, para recuperar o user
+                        }
+                    }
+                })
+            }
+        }
+        
+        // Quais ações que o usuário vai poder fazer no push de uma categoria
+        let doneAction = UNNotificationAction(identifier: NotificationIdentifiers.doneAction.rawValue, title: "Já fiz!", options: [.destructive, .foreground])
+        
+        let showAction = UNNotificationAction(identifier: NotificationIdentifiers.showAction.rawValue, title: "Mostrar!", options: [.foreground])
+        
+        let mainCategory = UNNotificationCategory(identifier: NotificationIdentifiers.mainCategory.rawValue, actions:
+            [doneAction, showAction], intentIdentifiers: [], options: .customDismissAction)
+        // customDismissAction: a gente sabe se o usuário viu a notificação mas cagou pra ela
+        
+        center.setNotificationCategories([mainCategory]) // define a lista de categorias
+        
+        //let remove
+        
         return true
     }
 
@@ -86,4 +129,38 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
     }
 
+}
+
+extension AppDelegate: UNUserNotificationCenterDelegate {
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+        
+        print("Notificação Visualizada")
+        print(response.actionIdentifier) // com esse cara dá pra saber em qual acao ele clicou
+        
+        switch response.actionIdentifier {
+            
+            case NotificationIdentifiers.doneAction.rawValue:
+                print("Disse que já fez a tarefa")
+            
+            case NotificationIdentifiers.showAction.rawValue:
+                print("Quer mostrar a notificação")
+        
+            // E se ele fez alguma acao que nao foi a gente que criou? Tipo o dismiss
+            case UNNotificationDismissActionIdentifier:
+                print("Usuário dismissou/cagou pra mim!!!")
+            
+            case UNNotificationDefaultActionIdentifier:
+                print("Tocou na notificação")
+            
+            default:
+                break
+        }
+        
+        completionHandler() // Tem que chamar aqui no final
+    }
+    
+    // User receives notification when he/she is using the app, so the app is opened on this moment
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        completionHandler([.alert]) // Passar as opções de notificação dessa notificação
+    }
 }
