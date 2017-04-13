@@ -135,8 +135,11 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
         
         print("Notificação Visualizada")
-        print(response.actionIdentifier) // com esse cara dá pra saber em qual acao ele clicou
         
+        // Conteúdo da notificação
+        print(response.notification.request.content)
+        
+        // com esse cara dá pra saber em qual acao ele clicou
         switch response.actionIdentifier {
             
             case NotificationIdentifiers.doneAction.rawValue:

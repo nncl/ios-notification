@@ -17,6 +17,7 @@
 		07ED1ACD1E9E918B00247FEE /* UIViewController+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ED1ACC1E9E918B00247FEE /* UIViewController+CoreData.swift */; };
 		07ED1ACF1E9E927A00247FEE /* TasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ED1ACE1E9E927A00247FEE /* TasksTableViewController.swift */; };
 		07ED1AD11E9E9C6900247FEE /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ED1AD01E9E9C6900247FEE /* TaskViewController.swift */; };
+		ACB1F6141E9EFEB7007844C5 /* push in Resources */ = {isa = PBXBuildFile; fileRef = ACB1F6131E9EFEB7007844C5 /* push */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		07ED1ACC1E9E918B00247FEE /* UIViewController+CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+CoreData.swift"; sourceTree = "<group>"; };
 		07ED1ACE1E9E927A00247FEE /* TasksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksTableViewController.swift; sourceTree = "<group>"; };
 		07ED1AD01E9E9C6900247FEE /* TaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		ACB1F6121E9EFC64007844C5 /* Reminder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Reminder.entitlements; sourceTree = "<group>"; };
+		ACB1F6131E9EFEB7007844C5 /* push */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = push; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 		07ED1A8F1E9E90E500247FEE = {
 			isa = PBXGroup;
 			children = (
+				ACB1F6131E9EFEB7007844C5 /* push */,
 				07ED1A9A1E9E90E500247FEE /* Reminder */,
 				07ED1AB21E9E90E500247FEE /* ReminderTests */,
 				07ED1ABD1E9E90E500247FEE /* ReminderUITests */,
@@ -103,6 +107,7 @@
 		07ED1A9A1E9E90E500247FEE /* Reminder */ = {
 			isa = PBXGroup;
 			children = (
+				ACB1F6121E9EFC64007844C5 /* Reminder.entitlements */,
 				07ED1ACC1E9E918B00247FEE /* UIViewController+CoreData.swift */,
 				07ED1A9B1E9E90E500247FEE /* AppDelegate.swift */,
 				07ED1ACE1E9E927A00247FEE /* TasksTableViewController.swift */,
@@ -202,7 +207,16 @@
 				TargetAttributes = {
 					07ED1A971E9E90E500247FEE = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F9K85W2E3Y;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					07ED1AAE1E9E90E500247FEE = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -241,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB1F6141E9EFEB7007844C5 /* push in Resources */,
 				07ED1AA91E9E90E500247FEE /* LaunchScreen.storyboard in Resources */,
 				07ED1AA61E9E90E500247FEE /* Assets.xcassets in Resources */,
 				07ED1AA11E9E90E500247FEE /* Main.storyboard in Resources */,
@@ -422,9 +437,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Reminder/Reminder.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = F9K85W2E3Y;
 				INFOPLIST_FILE = Reminder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ericbrito.Reminder;
+				PRODUCT_BUNDLE_IDENTIFIER = io.dindigital.Reminder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -434,9 +452,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Reminder/Reminder.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = F9K85W2E3Y;
 				INFOPLIST_FILE = Reminder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ericbrito.Reminder;
+				PRODUCT_BUNDLE_IDENTIFIER = io.dindigital.Reminder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -515,6 +536,7 @@
 				07ED1AC51E9E90E500247FEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07ED1AC61E9E90E500247FEE /* Build configuration list for PBXNativeTarget "ReminderTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +545,7 @@
 				07ED1AC81E9E90E500247FEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07ED1AC91E9E90E500247FEE /* Build configuration list for PBXNativeTarget "ReminderUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +554,7 @@
 				07ED1ACB1E9E90E500247FEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
