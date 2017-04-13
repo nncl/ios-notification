@@ -23,6 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
+        OneSignal.initWithLaunchOptions(launchOptions, appId: "92b17bea-4fa9-4b22-9148-f5e55e5ec136")
+        
         // App carregado, vamos configurar a central de notificações
         center.delegate = self
         

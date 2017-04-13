@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>OneSignalNotificationExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Reminder.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>07ED1AB91E9E90E500247FEE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ACB1F6181E9EFFF1007844C5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

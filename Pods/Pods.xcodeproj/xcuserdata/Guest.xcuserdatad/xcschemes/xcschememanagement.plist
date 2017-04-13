@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-OneSignalNotificationExtension.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Reminder.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ReminderTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ReminderUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>59BCFC402D7DE6CC0F60909CA2F22A9C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7049E5AD4C3AE66A6E327FECC5C47A2C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A18B75416D312C0E11ECF2A09AC9AEE0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F3DDE4D1C9D2E9FD463F6AF0EBC4827C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

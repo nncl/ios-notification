@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05C36156B1037B34F1939D83A0A71457 /* Pods-ReminderTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3684AB14E29C3F85F073E4D4F6D483F5 /* Pods-ReminderTests-dummy.m */; };
+		0626C5BBBA2D557E4CCA043A333B50A1 /* Pods-Reminder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F3CC16B8A2D44CCA619A6E911B90D34 /* Pods-Reminder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E4F4312F78B49681B64D78A60DF924E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		15B466FA6BB5BB4B39FB9A6948FAFC0C /* Pods-ReminderUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 441163FCE07024AEE068AA9E21F69DFC /* Pods-ReminderUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C38858D734E4B41F830E43F1E730786 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9BEFC8BA79B9F29981C039452708E804 /* Pods-ReminderUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FDEB9C29AA4D556BB2C79424D4428E /* Pods-ReminderUITests-dummy.m */; };
+		D16FD34C47773799C88357FAAC9C0BA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		E2677CE0331F85259651ABD3DDC8C5F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		EB2E3C566680C9C9CAD8076EE3EE3CF3 /* Pods-Reminder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F634B5BF937A8EFB787F12AAD4F1AA81 /* Pods-Reminder-dummy.m */; };
+		F8A44E80EA23273D31A964ED987F0451 /* Pods-OneSignalNotificationExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 100CBAB5EBA3638F28BA4245F37B2CEA /* Pods-OneSignalNotificationExtension-dummy.m */; };
+		FCC928F7209592DE87AFDC93755DAB0C /* Pods-ReminderTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F056DB4A263F63C4255E55E16C416E71 /* Pods-ReminderTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6F8E0F0FA34FE3F984250886DA4F0D /* Pods-OneSignalNotificationExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 810643B3C3739CF4A3FE35FB5D37B2F9 /* Pods-OneSignalNotificationExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0107E81959F737611A31E5671A94C47B /* OneSignal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OneSignal.framework; path = iOS_SDK/OneSignalSDK/Framework/OneSignal.framework; sourceTree = "<group>"; };
+		100CBAB5EBA3638F28BA4245F37B2CEA /* Pods-OneSignalNotificationExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OneSignalNotificationExtension-dummy.m"; sourceTree = "<group>"; };
+		19FDEB9C29AA4D556BB2C79424D4428E /* Pods-ReminderUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReminderUITests-dummy.m"; sourceTree = "<group>"; };
+		250F3AF0C9C64AE12CACA61887B3B495 /* Pods_ReminderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReminderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DCE93B6C9046D4BE6A63CF733471ECC /* Pods-Reminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Reminder.release.xcconfig"; sourceTree = "<group>"; };
+		359FBE0F4D7710313F09581B10F184D4 /* Pods-OneSignalNotificationExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneSignalNotificationExtension-acknowledgements.plist"; sourceTree = "<group>"; };
+		3684AB14E29C3F85F073E4D4F6D483F5 /* Pods-ReminderTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReminderTests-dummy.m"; sourceTree = "<group>"; };
+		36AACEBF50BC1F461219B075BF3850A9 /* Pods-ReminderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReminderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3A1D18D9B3902568ADDA800B1214B352 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		441163FCE07024AEE068AA9E21F69DFC /* Pods-ReminderUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReminderUITests-umbrella.h"; sourceTree = "<group>"; };
+		4976290ED5EEE84B17933C225F03B37E /* Pods-OneSignalNotificationExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OneSignalNotificationExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4E77C1203C91A4FD814F846B3F27E5B5 /* Pods_OneSignalNotificationExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneSignalNotificationExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51B3578AEC329EFAA7D785B95CF7A65A /* Pods-Reminder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Reminder-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5C760EDF0C35C9F114FE86F89EC85B8F /* Pods-Reminder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Reminder.modulemap"; sourceTree = "<group>"; };
+		6B4DBD1FFB40238E686608C4460F532D /* Pods-OneSignalNotificationExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OneSignalNotificationExtension.modulemap"; sourceTree = "<group>"; };
+		72DF8B538C52AF84A14C1A656E8B6F9E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78C6B2F3EE28B37D48F5A0F4BBCF4FFA /* Pods-OneSignalNotificationExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneSignalNotificationExtension.release.xcconfig"; sourceTree = "<group>"; };
+		80B066DD23B0EB32561321D9630571DA /* Pods-Reminder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Reminder-frameworks.sh"; sourceTree = "<group>"; };
+		810643B3C3739CF4A3FE35FB5D37B2F9 /* Pods-OneSignalNotificationExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OneSignalNotificationExtension-umbrella.h"; sourceTree = "<group>"; };
+		8F3CC16B8A2D44CCA619A6E911B90D34 /* Pods-Reminder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Reminder-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93AB4BCFD9331F6E2A1F23B593A98A65 /* Pods-OneSignalNotificationExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneSignalNotificationExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		97AD9C345E813FC489D68BE13BBA9E74 /* Pods-ReminderUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReminderUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9C8A2E423BB21D835EA80CF10F14E460 /* Pods-ReminderUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReminderUITests-resources.sh"; sourceTree = "<group>"; };
+		A04B447B2683C07E0C5A7736E109E411 /* Pods-ReminderTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReminderTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AF0CFFBCACF1B184B779BF1734DE678A /* Pods-ReminderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReminderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B36E70D1D95735C212DC79EF854235E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA07C5F006412B203904407B9EC3D06E /* Pods-ReminderTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReminderTests-frameworks.sh"; sourceTree = "<group>"; };
+		BB29A23FC34066F52119F57EF568D575 /* Pods-ReminderUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ReminderUITests.modulemap"; sourceTree = "<group>"; };
+		BD6A254FCFA9E29ABF1344E6BA9391C0 /* Pods-Reminder-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Reminder-resources.sh"; sourceTree = "<group>"; };
+		C5D4DA5C7712BBE21A7D1C93F303A9DB /* Pods-ReminderUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReminderUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CA6D345FCF5635815C92668D65745BC2 /* Pods-ReminderUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReminderUITests-frameworks.sh"; sourceTree = "<group>"; };
+		CCD38B19F2A8D5194B11C88AED3D007D /* Pods_ReminderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReminderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD746EF01579DD9FA9DA5EAEC591F5C0 /* Pods-ReminderTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReminderTests-resources.sh"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D116553C81E739E950D844AB9CAFF5D4 /* Pods-Reminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Reminder.debug.xcconfig"; sourceTree = "<group>"; };
+		D192DBBDD3C0745FBCD8D4C66F8D64FF /* Pods-ReminderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReminderTests.release.xcconfig"; sourceTree = "<group>"; };
+		D3C69EB8FE0F1964868F97E3D5D16BE1 /* Pods-ReminderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReminderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D603AFA161CDDC77207AC10719D2CDF9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1E0B90B2BECC49D09A1030DF86D847 /* Pods-OneSignalNotificationExtension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OneSignalNotificationExtension-frameworks.sh"; sourceTree = "<group>"; };
+		DEBA0C0BD757FC3283AA7B52B6AD7662 /* Pods_Reminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E361EEF2027AB1C0C2213705D45CBE88 /* Pods-ReminderTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReminderTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE8C596D1FD25C795CDAFB7662956BC3 /* Pods-Reminder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Reminder-acknowledgements.plist"; sourceTree = "<group>"; };
+		F056DB4A263F63C4255E55E16C416E71 /* Pods-ReminderTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReminderTests-umbrella.h"; sourceTree = "<group>"; };
+		F3F70CDE8E06C30825E38C989F686A1F /* Pods-ReminderTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ReminderTests.modulemap"; sourceTree = "<group>"; };
+		F634B5BF937A8EFB787F12AAD4F1AA81 /* Pods-Reminder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Reminder-dummy.m"; sourceTree = "<group>"; };
+		FE82F7DD9244DB4B0F982ADA84902144 /* Pods-OneSignalNotificationExtension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OneSignalNotificationExtension-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36AB1B0075F1E96F1EBF7B742D2A5C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C38858D734E4B41F830E43F1E730786 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38AAEB13ACA9FC5404D5C27F3E913085 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2677CE0331F85259651ABD3DDC8C5F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923BCB68BD86F0FA3B77C7E2F2371BB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4F4312F78B49681B64D78A60DF924E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F727A5D2999356FFEF3D23E4CE4FE550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D16FD34C47773799C88357FAAC9C0BA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AC302FF5070B1718FFCC7A421FA6018 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFB4DBD49F024B3BEBE73567D586250A /* Pods-OneSignalNotificationExtension */,
+				F7BF856D2F7EE5DCC92014861EFC4F18 /* Pods-Reminder */,
+				6F7E32486C294852597FAD330BB64204 /* Pods-ReminderTests */,
+				E59C01CF8D0FB5B52D709920754CF2B1 /* Pods-ReminderUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		31024DDD121568A44F4DC265C15F4D16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0107E81959F737611A31E5671A94C47B /* OneSignal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4F8C211603531B464A794C75BBF9F093 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E77C1203C91A4FD814F846B3F27E5B5 /* Pods_OneSignalNotificationExtension.framework */,
+				DEBA0C0BD757FC3283AA7B52B6AD7662 /* Pods_Reminder.framework */,
+				CCD38B19F2A8D5194B11C88AED3D007D /* Pods_ReminderTests.framework */,
+				250F3AF0C9C64AE12CACA61887B3B495 /* Pods_ReminderUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6202124E9D433C3EA7B1CF2F09917CA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B109A558AEC0464E1C8AD13A3517ECA8 /* OneSignal */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6F7E32486C294852597FAD330BB64204 /* Pods-ReminderTests */ = {
+			isa = PBXGroup;
+			children = (
+				72DF8B538C52AF84A14C1A656E8B6F9E /* Info.plist */,
+				F3F70CDE8E06C30825E38C989F686A1F /* Pods-ReminderTests.modulemap */,
+				E361EEF2027AB1C0C2213705D45CBE88 /* Pods-ReminderTests-acknowledgements.markdown */,
+				A04B447B2683C07E0C5A7736E109E411 /* Pods-ReminderTests-acknowledgements.plist */,
+				3684AB14E29C3F85F073E4D4F6D483F5 /* Pods-ReminderTests-dummy.m */,
+				BA07C5F006412B203904407B9EC3D06E /* Pods-ReminderTests-frameworks.sh */,
+				CD746EF01579DD9FA9DA5EAEC591F5C0 /* Pods-ReminderTests-resources.sh */,
+				F056DB4A263F63C4255E55E16C416E71 /* Pods-ReminderTests-umbrella.h */,
+				AF0CFFBCACF1B184B779BF1734DE678A /* Pods-ReminderTests.debug.xcconfig */,
+				D192DBBDD3C0745FBCD8D4C66F8D64FF /* Pods-ReminderTests.release.xcconfig */,
+			);
+			name = "Pods-ReminderTests";
+			path = "Target Support Files/Pods-ReminderTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6202124E9D433C3EA7B1CF2F09917CA5 /* Pods */,
+				4F8C211603531B464A794C75BBF9F093 /* Products */,
+				2AC302FF5070B1718FFCC7A421FA6018 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B109A558AEC0464E1C8AD13A3517ECA8 /* OneSignal */ = {
+			isa = PBXGroup;
+			children = (
+				31024DDD121568A44F4DC265C15F4D16 /* Frameworks */,
+			);
+			path = OneSignal;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFB4DBD49F024B3BEBE73567D586250A /* Pods-OneSignalNotificationExtension */ = {
+			isa = PBXGroup;
+			children = (
+				D603AFA161CDDC77207AC10719D2CDF9 /* Info.plist */,
+				6B4DBD1FFB40238E686608C4460F532D /* Pods-OneSignalNotificationExtension.modulemap */,
+				4976290ED5EEE84B17933C225F03B37E /* Pods-OneSignalNotificationExtension-acknowledgements.markdown */,
+				359FBE0F4D7710313F09581B10F184D4 /* Pods-OneSignalNotificationExtension-acknowledgements.plist */,
+				100CBAB5EBA3638F28BA4245F37B2CEA /* Pods-OneSignalNotificationExtension-dummy.m */,
+				DA1E0B90B2BECC49D09A1030DF86D847 /* Pods-OneSignalNotificationExtension-frameworks.sh */,
+				FE82F7DD9244DB4B0F982ADA84902144 /* Pods-OneSignalNotificationExtension-resources.sh */,
+				810643B3C3739CF4A3FE35FB5D37B2F9 /* Pods-OneSignalNotificationExtension-umbrella.h */,
+				93AB4BCFD9331F6E2A1F23B593A98A65 /* Pods-OneSignalNotificationExtension.debug.xcconfig */,
+				78C6B2F3EE28B37D48F5A0F4BBCF4FFA /* Pods-OneSignalNotificationExtension.release.xcconfig */,
+			);
+			name = "Pods-OneSignalNotificationExtension";
+			path = "Target Support Files/Pods-OneSignalNotificationExtension";
+			sourceTree = "<group>";
+		};
+		E59C01CF8D0FB5B52D709920754CF2B1 /* Pods-ReminderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B36E70D1D95735C212DC79EF854235E9 /* Info.plist */,
+				BB29A23FC34066F52119F57EF568D575 /* Pods-ReminderUITests.modulemap */,
+				97AD9C345E813FC489D68BE13BBA9E74 /* Pods-ReminderUITests-acknowledgements.markdown */,
+				C5D4DA5C7712BBE21A7D1C93F303A9DB /* Pods-ReminderUITests-acknowledgements.plist */,
+				19FDEB9C29AA4D556BB2C79424D4428E /* Pods-ReminderUITests-dummy.m */,
+				CA6D345FCF5635815C92668D65745BC2 /* Pods-ReminderUITests-frameworks.sh */,
+				9C8A2E423BB21D835EA80CF10F14E460 /* Pods-ReminderUITests-resources.sh */,
+				441163FCE07024AEE068AA9E21F69DFC /* Pods-ReminderUITests-umbrella.h */,
+				D3C69EB8FE0F1964868F97E3D5D16BE1 /* Pods-ReminderUITests.debug.xcconfig */,
+				36AACEBF50BC1F461219B075BF3850A9 /* Pods-ReminderUITests.release.xcconfig */,
+			);
+			name = "Pods-ReminderUITests";
+			path = "Target Support Files/Pods-ReminderUITests";
+			sourceTree = "<group>";
+		};
+		F7BF856D2F7EE5DCC92014861EFC4F18 /* Pods-Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				3A1D18D9B3902568ADDA800B1214B352 /* Info.plist */,
+				5C760EDF0C35C9F114FE86F89EC85B8F /* Pods-Reminder.modulemap */,
+				51B3578AEC329EFAA7D785B95CF7A65A /* Pods-Reminder-acknowledgements.markdown */,
+				EE8C596D1FD25C795CDAFB7662956BC3 /* Pods-Reminder-acknowledgements.plist */,
+				F634B5BF937A8EFB787F12AAD4F1AA81 /* Pods-Reminder-dummy.m */,
+				80B066DD23B0EB32561321D9630571DA /* Pods-Reminder-frameworks.sh */,
+				BD6A254FCFA9E29ABF1344E6BA9391C0 /* Pods-Reminder-resources.sh */,
+				8F3CC16B8A2D44CCA619A6E911B90D34 /* Pods-Reminder-umbrella.h */,
+				D116553C81E739E950D844AB9CAFF5D4 /* Pods-Reminder.debug.xcconfig */,
+				2DCE93B6C9046D4BE6A63CF733471ECC /* Pods-Reminder.release.xcconfig */,
+			);
+			name = "Pods-Reminder";
+			path = "Target Support Files/Pods-Reminder";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		81A6FFF5C2F5552438895483E29E576A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6F8E0F0FA34FE3F984250886DA4F0D /* Pods-OneSignalNotificationExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93157BDE86E8384D8D9234E8DA7A03AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0626C5BBBA2D557E4CCA043A333B50A1 /* Pods-Reminder-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3017AEEFC032058FD1BD839CAB0EEA9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15B466FA6BB5BB4B39FB9A6948FAFC0C /* Pods-ReminderUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6147D58D49B5C507E1010BE5910E83B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC928F7209592DE87AFDC93755DAB0C /* Pods-ReminderTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		59BCFC402D7DE6CC0F60909CA2F22A9C /* Pods-OneSignalNotificationExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBCEDF1CB296CCD84A3E807F015B429D /* Build configuration list for PBXNativeTarget "Pods-OneSignalNotificationExtension" */;
+			buildPhases = (
+				BB30CFF0C96C77566D8DF82B122174E8 /* Sources */,
+				38AAEB13ACA9FC5404D5C27F3E913085 /* Frameworks */,
+				81A6FFF5C2F5552438895483E29E576A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OneSignalNotificationExtension";
+			productName = "Pods-OneSignalNotificationExtension";
+			productReference = 4E77C1203C91A4FD814F846B3F27E5B5 /* Pods_OneSignalNotificationExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7049E5AD4C3AE66A6E327FECC5C47A2C /* Pods-ReminderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2133DD95F3F162A246EB8EA82129C742 /* Build configuration list for PBXNativeTarget "Pods-ReminderUITests" */;
+			buildPhases = (
+				493DD82D28811DEDE8C06106268D169D /* Sources */,
+				923BCB68BD86F0FA3B77C7E2F2371BB2 /* Frameworks */,
+				B3017AEEFC032058FD1BD839CAB0EEA9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ReminderUITests";
+			productName = "Pods-ReminderUITests";
+			productReference = 250F3AF0C9C64AE12CACA61887B3B495 /* Pods_ReminderUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A18B75416D312C0E11ECF2A09AC9AEE0 /* Pods-ReminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16EA260411EEC0C1EF9171BDD1E9975D /* Build configuration list for PBXNativeTarget "Pods-ReminderTests" */;
+			buildPhases = (
+				BD6BD61A0B5499D83136D256A1383BE9 /* Sources */,
+				36AB1B0075F1E96F1EBF7B742D2A5C5A /* Frameworks */,
+				D6147D58D49B5C507E1010BE5910E83B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ReminderTests";
+			productName = "Pods-ReminderTests";
+			productReference = CCD38B19F2A8D5194B11C88AED3D007D /* Pods_ReminderTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F3DDE4D1C9D2E9FD463F6AF0EBC4827C /* Pods-Reminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54A04E672C82B05D2BD79C871495556 /* Build configuration list for PBXNativeTarget "Pods-Reminder" */;
+			buildPhases = (
+				75DD5BF8EE571D4ABC8CD7BA38C335E7 /* Sources */,
+				F727A5D2999356FFEF3D23E4CE4FE550 /* Frameworks */,
+				93157BDE86E8384D8D9234E8DA7A03AC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Reminder";
+			productName = "Pods-Reminder";
+			productReference = DEBA0C0BD757FC3283AA7B52B6AD7662 /* Pods_Reminder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4F8C211603531B464A794C75BBF9F093 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59BCFC402D7DE6CC0F60909CA2F22A9C /* Pods-OneSignalNotificationExtension */,
+				F3DDE4D1C9D2E9FD463F6AF0EBC4827C /* Pods-Reminder */,
+				A18B75416D312C0E11ECF2A09AC9AEE0 /* Pods-ReminderTests */,
+				7049E5AD4C3AE66A6E327FECC5C47A2C /* Pods-ReminderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		493DD82D28811DEDE8C06106268D169D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BEFC8BA79B9F29981C039452708E804 /* Pods-ReminderUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DD5BF8EE571D4ABC8CD7BA38C335E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2E3C566680C9C9CAD8076EE3EE3CF3 /* Pods-Reminder-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB30CFF0C96C77566D8DF82B122174E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A44E80EA23273D31A964ED987F0451 /* Pods-OneSignalNotificationExtension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6BD61A0B5499D83136D256A1383BE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C36156B1037B34F1939D83A0A71457 /* Pods-ReminderTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		02F9AB31D87FB010C0745B104521FE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36AACEBF50BC1F461219B075BF3850A9 /* Pods-ReminderUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ReminderUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReminderUITests/Pods-ReminderUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ReminderUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1C908C9E23B0214C9B9B55CCB6C90A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AA398D2168FF79DC34E969E895A191F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3C69EB8FE0F1964868F97E3D5D16BE1 /* Pods-ReminderUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ReminderUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReminderUITests/Pods-ReminderUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ReminderUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		41BB5375654D4AAC247269BEBADD00F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93AB4BCFD9331F6E2A1F23B593A98A65 /* Pods-OneSignalNotificationExtension.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OneSignalNotificationExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OneSignalNotificationExtension/Pods-OneSignalNotificationExtension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OneSignalNotificationExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5273E950D9EB10F60ABCC0A1C9163D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DCE93B6C9046D4BE6A63CF733471ECC /* Pods-Reminder.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Reminder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Reminder/Pods-Reminder.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Reminder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		54407C5E8C20CBD754F4686CFE6F5F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF0CFFBCACF1B184B779BF1734DE678A /* Pods-ReminderTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ReminderTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReminderTests/Pods-ReminderTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ReminderTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6757B4ABF1D848940ACF50CCF5A2FE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D192DBBDD3C0745FBCD8D4C66F8D64FF /* Pods-ReminderTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ReminderTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReminderTests/Pods-ReminderTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ReminderTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A9E8533E615EA7FD02D27524E68EE149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DE93DA9B1C93BBAD4A7FAA904843B449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78C6B2F3EE28B37D48F5A0F4BBCF4FFA /* Pods-OneSignalNotificationExtension.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OneSignalNotificationExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OneSignalNotificationExtension/Pods-OneSignalNotificationExtension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OneSignalNotificationExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC38907FD4CA26B30228C3BF4EF3A7A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D116553C81E739E950D844AB9CAFF5D4 /* Pods-Reminder.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Reminder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Reminder/Pods-Reminder.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Reminder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16EA260411EEC0C1EF9171BDD1E9975D /* Build configuration list for PBXNativeTarget "Pods-ReminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54407C5E8C20CBD754F4686CFE6F5F70 /* Debug */,
+				6757B4ABF1D848940ACF50CCF5A2FE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2133DD95F3F162A246EB8EA82129C742 /* Build configuration list for PBXNativeTarget "Pods-ReminderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA398D2168FF79DC34E969E895A191F /* Debug */,
+				02F9AB31D87FB010C0745B104521FE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E8533E615EA7FD02D27524E68EE149 /* Debug */,
+				1C908C9E23B0214C9B9B55CCB6C90A02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBCEDF1CB296CCD84A3E807F015B429D /* Build configuration list for PBXNativeTarget "Pods-OneSignalNotificationExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41BB5375654D4AAC247269BEBADD00F0 /* Debug */,
+				DE93DA9B1C93BBAD4A7FAA904843B449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F54A04E672C82B05D2BD79C871495556 /* Build configuration list for PBXNativeTarget "Pods-Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC38907FD4CA26B30228C3BF4EF3A7A5 /* Debug */,
+				5273E950D9EB10F60ABCC0A1C9163D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
